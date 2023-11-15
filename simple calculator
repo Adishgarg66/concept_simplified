@@ -1,0 +1,48 @@
+//My First Simple calculator
+//Adish garg
+//project given by- Concept simplified
+
+
+#include<iostream>
+using namespace std;
+int main(){
+
+    int a,b;
+    char sign;
+
+cout<<("\n\n************************************************");
+
+
+cout<<("\n Enter first number:");
+
+cin>>a;
+cout<<("\n Enter second number:");
+cin>>b;
+cout<<("************************************************");
+cout<<("\n \n \nChoose one sign as per your calculation:");
+
+cout<<("\n\n  +, -, *, /\n");
+cin>>sign;
+
+cout<<("Answer is ");
+
+switch(sign)
+{
+    case '+' : cout<<a+b;
+    break;
+    case '-' : cout<<a-b;
+    break;
+    case '*' : cout<<a*b;
+    break;
+    case '/': cout<<a/b;
+    break;
+    default: cout<<"❌Error❌____Wrong sign____";
+    break;
+       }
+       cout<<("\n\n\n-----------------------------------------------------------------");
+       cout<<("\n Thanks for using this simple calculator 'Created By ADISH GARG'");
+       cout<<("\n ----------------------------------------------------------------");
+
+       
+    return 0;
+}
